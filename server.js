@@ -6,6 +6,8 @@ app.get('/', (req, res) => {
     res.sendFile("/app/pages/index.html");
 });
 
+app.use(express.static('/app/public'));
+
 app.listen(port, () => {
     console.log(`Server listening on port ${port}`);
 });

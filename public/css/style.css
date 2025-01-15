@@ -1,0 +1,29 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    font-size: 80pt;
+    margin: 0px;
+}
+
+#project_info {
+    background-color: rgb(204, 220, 232);
+    padding: 3%;
+}
+
+#sidebar {
+    position: fixed;
+    right: 2pc;
+    top: 2pc;
+    height: 80%;
+    width: 15%;
+    padding: 2%;
+
+    border-radius: 20pt;
+    border-style: solid;
+    border-width: 2pt;
+    border-color: rgb(200,200,200);
+
+    background-color: white;
+}

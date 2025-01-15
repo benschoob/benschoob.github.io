@@ -1,7 +1,6 @@
-version: '3.9'
-
 services:
   node1:
+    container_name: n1
     build: .
     ports:
       - "8000:8080"
