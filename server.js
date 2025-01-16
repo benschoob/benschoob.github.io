@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 app.use(express.static('/app/public'));
 
 app.listen(port, () => {
-    console.log(`Server listening on port ${port}`);
+    console.log(`Server hosting on localhost:${port}`);
 });
 
 
