@@ -7,9 +7,28 @@ body {
     margin: 0;
 }
 
+ul {
+    padding-left: 20px;
+}
+
+.section {
+    padding: 1%;
+    border-top: 1pt solid;
+}
+
+.title_date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-weight: bold;
+}
+
 #navbar {
     position: fixed;
     top: 0;
+    z-index: 1;
 }
 
 #coverpage {
@@ -33,4 +52,13 @@ body {
 
 #sub_header {
     font-size: 40pt;
+}
+
+#reference_div {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.reference {
+    padding-right: 50px;
 }
