@@ -2,36 +2,11 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-button {
-
-}
-
-#header {
-    font-size: 80pt;
-    margin: 0px;
-}
-
-#project_info {
-    background-color: rgb(204, 220, 232);
-    padding: 3%;
-}
-
-#sidebar {
+#navbar {
     position: fixed;
-    right: 0;
     top: 0;
-    height: 100%;
-    width: 15%;
-    padding: 2%;
-
-    border-radius: 20pt;
-    border-right-style: solid;
-    border-width: 2pt;
-    border-color: rgb(200,200,200);
-
-    background-color: white;
 }
 
-#spacer {
-    height: 10000pt !important;
+#main_page {
+    margin-top: 3%;
 }

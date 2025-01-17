@@ -7,20 +7,21 @@
         <link rel="stylesheet" type="text/css" href="css/style.css" />
     </head>
     <body>
+        <!--navigation bar containing links to different parts of the page-->
+        <div id="navbar">
+            <button id="header_button" onclick="smoothScrollTo('header')">Header</button>
+            <button id="info_button" onclick="smoothScrollTo('project_info')">Project Info</button>
+        </div>
         <!--The main part of the page-->
         <div id="main_page">
-            <div id="spacer"></div>
-            <!--Title header-->
-            <h1 id="header">Ben Schubert</h1>
+            <div id="coverpage">
+                <h1 id="header">Ben Schubert</h1>
+            </div>
             <!--Info about this webpage-->
             <div id="project_info">
                 <p>This page was built with pure javascript and HTML and is served by a node.js server.</p>
                 <p>You can find the source code for this project <a href="">here</a>.</p>
             </div>
-        </div>
-        <!--Sidebar containing links to different parts of the page-->
-        <div id="sidebar">
-            <button id="header_button" onclick="smoothScrollTo('header')">Header</button>
         </div>
     </body>
 </html>
