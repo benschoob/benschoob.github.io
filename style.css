@@ -12,6 +12,15 @@ body {
     border-top: 1pt solid;
 }
 
+.title_date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-weight: bold;
+}
+
 #navbar {
     position: fixed;
     top: 0;
