@@ -7,6 +7,11 @@ body {
     margin: 0;
 }
 
+.section {
+    padding: 1%;
+    border-top: 1pt solid;
+}
+
 #navbar {
     position: fixed;
     top: 0;
